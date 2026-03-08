@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="NeonLaunch | Astro Starter" description="A modern Astro landing page starter for free hosting.">
+  <section class="hero" id="showcase">
+    <div class="hero-card">
+      <div class="eyebrow">⚡ Astro starter / static deploy ready</div>
+      <h1>高速で
+        <br />今っぽいLPを
+        <br />すぐ公開。</h1>
+      <p class="lead">
+        GitHub Pages・Cloudflare Pages向けの、軽量で見た目もモダンなスターターです。
+        アプリ紹介、ポートフォリオ、配布サイトの土台としてそのまま使えます。
+      </p>
+      <div class="actions">
+        <a class="button primary" href="https://github.com/">GitHubで公開</a>
+        <a class="button secondary" href="#features">特徴を見る</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><strong>100</strong><span>Lighthouse想定の軽量構成</span></div>
+        <div class="stat"><strong>1分</strong><span>静的サイトとしてデプロイ可能</span></div>
+        <div class="stat"><strong>無料</strong><span>個人開発の公開先に最適</span></div>
+      </div>
+    </div>
+    <div class="hero-card dashboard">
+      <div class="dashboard-top">
+        <span>Realtime launch view</span>
+        <span>v1.0</span>
+      </div>
+      <div class="chart"></div>
+      <div class="stats">
+        <div class="stat"><strong>12.4k</strong><span>月間表示</span></div>
+        <div class="stat"><strong>3.8%</strong><span>CVR</span></div>
+        <div class="stat"><strong>0ms</strong><span>サーバー管理不要</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-grid" id="features">
+    <article class="panel">
+      <h3>軽量構成</h3>
+      <p>依存を最小限にしているので、初学者でも追いやすく、保守もしやすい形です。</p>
+    </article>
+    <article class="panel">
+      <h3>モダンUI</h3>
+      <p>グラスモーフィズム風の見た目、余白、タイポグラフィで今っぽく仕上げています。</p>
+    </article>
+    <article class="panel">
+      <h3>無料公開向け</h3>
+      <p>GitHub Pages / Cloudflare Pages でそのまま公開しやすい構成です。</p>
+    </article>
+  </section>
+</BaseLayout>
